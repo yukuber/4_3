@@ -2,7 +2,8 @@ using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 
-namespace _4_3{
+namespace _4_3
+{
 
 public partial class App : Application
 {
