@@ -1,0 +1,76 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" 
+        Width="800" 
+        Height="600"
+        x:Class="_4_3.MainWindow"
+        Title="_4_3"
+        CanResize="False">
+  
+  <Window.Styles>
+    <Style Selector="TextBlock">
+      <Setter Property="Margin" Value="5"></Setter>
+      <Setter Property="Foreground" Value="White"></Setter>
+      <Setter Property="FontWeight" Value="Medium"></Setter>
+    </Style>
+    <Style Selector="DockPanel TextBlock">
+      <Setter Property="Margin" Value="25"></Setter>
+    </Style>
+    <Style Selector="ScrollViewer StackPanel">
+      <Setter Property="Margin" Value="12"></Setter>
+    </Style>
+    <Style Selector="Image">
+      <Setter Property="Margin" Value="25"></Setter>
+    </Style>
+    <Style Selector="ScrollViewer TextBlock:pointerover">
+      <Setter Property="Foreground" Value="Blue"></Setter>
+    </Style>
+  </Window.Styles>
+  
+  <Grid ShowGridLines="False"
+        RowDefinitions="auto,*,auto"
+        ColumnDefinitions="auto,*"
+        Background="#0F0F2D">
+    
+    <DockPanel Grid.Row="0"
+               Grid.ColumnSpan="2">
+      <TextBlock>Home</TextBlock>
+      <TextBlock>About</TextBlock>
+      <TextBlock>Blog's main topic 1</TextBlock>
+      <TextBlock>Blog's main topig 2</TextBlock>
+      <TextBlock>Blog's main topig 3</TextBlock>
+      <TextBlock>Associated blogs</TextBlock>
+      <TextBlock DockPanel.Dock="Right" TextAlignment="Right">RSS</TextBlock>
+    </DockPanel>
+
+    <StackPanel Grid.Row="1"
+                Grid.Column="0"
+                Orientation="Vertical">
+        <StackPanel Background="#B111FD">
+            <TextBlock>Article 1</TextBlock>
+            <TextBlock TextWrapping="Wrap"> Many many many many many many many many many many many many many many text</TextBlock>
+        </StackPanel>
+    </StackPanel>
+
+    <StackPanel Grid.Row="2"
+                Grid.Column="1"
+                Background="Green"
+                Orientation="Vertical">
+          <TextBlock TextWrapping="Wrap">Many many many many many many many many many many many many many many many many many many many many many many many many many many many many many many many many many many many many many many many many many many many many many many many text</TextBlock>      
+    </StackPanel>
+
+
+    <DockPanel Grid.Row="2"
+               Grid.ColumnSpan="2"
+               Background="#17011a">
+      <TextBlock DockPanel.Dock="Left">Tags: </TextBlock>
+      <TextBlock DockPanel.Dock="Left">Tag1</TextBlock>
+      <TextBlock DockPanel.Dock="Left">Tag2</TextBlock>
+      <TextBlock DockPanel.Dock="Left">Tag3</TextBlock>
+      <TextBlock DockPanel.Dock="Left">Tag4</TextBlock>
+      <TextBlock DockPanel.Dock="Right" TextAlignment="Right">Rate the Article</TextBlock>
+    </DockPanel>
+  </Grid>
+</Window>
