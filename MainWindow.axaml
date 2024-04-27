@@ -49,33 +49,33 @@
                 Grid.Column="0"
                 Orientation="Vertical"
                 Background="#32a852">
-            <TextBlock>Что такое Lorem Ipsum?</TextBlock>
-            <TextBlock TextWrapping="Wrap">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</TextBlock>      
-            
-            <Image Source="resm:Avalonia.Skia.Assets.NoiseAsset_256X256_PNG.png?assembly=Avalonia.Skia"
-                   Height="100"
-                   Width="100"
-                   Stretch="Uniform"
-                   HorizontalAlignment="Center">
-            </Image>
-            
-            <DockPanel>
-              <TextBlock DockPanel.Dock="Left">Tags: </TextBlock>
-              <TextBlock DockPanel.Dock="Left">Tag1</TextBlock>
-              <TextBlock DockPanel.Dock="Left">Tag2</TextBlock>
-              <TextBlock DockPanel.Dock="Left">Tag3</TextBlock>
-              <TextBlock DockPanel.Dock="Left">Tag4</TextBlock>
-              <TextBlock DockPanel.Dock="Right" TextAlignment="Right">Rate the Article:  4/5</TextBlock>
-            </DockPanel>
+      <TextBlock>Что такое Lorem Ipsum?</TextBlock>
+      <TextBlock TextWrapping="Wrap">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</TextBlock>      
+          
+      <Image Source="resm:Avalonia.Skia.Assets.NoiseAsset_256X256_PNG.png?assembly=Avalonia.Skia"
+             Height="100"
+             Width="100"
+             Stretch="Uniform"
+             HorizontalAlignment="Center">
+      </Image>
+
+      <DockPanel>
+        <TextBlock DockPanel.Dock="Left">Tags: </TextBlock>
+        <TextBlock DockPanel.Dock="Left">Tag1</TextBlock>
+        <TextBlock DockPanel.Dock="Left">Tag2</TextBlock>
+        <TextBlock DockPanel.Dock="Left">Tag3</TextBlock>
+        <TextBlock DockPanel.Dock="Left">Tag4</TextBlock>
+        <TextBlock DockPanel.Dock="Right" TextAlignment="Right">Rate the Article:  4/5</TextBlock>
+      </DockPanel>
     </StackPanel>
 
     <StackPanel Grid.Row="1"
                 Grid.Column="1"
                 Background="#9e32a8"
                 Orientation="Vertical">
-          <TextBlock TextWrapping="Wrap"> Почему он используется?</TextBlock>
-          <TextBlock TextWrapping="Wrap"> Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).</TextBlock>
-          <TextBlock DockPanel.Dock="Right" TextAlignment="Right">author</TextBlock>
+      <TextBlock TextWrapping="Wrap"> Почему он используется?</TextBlock>
+      <TextBlock TextWrapping="Wrap"> Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).</TextBlock>
+      <TextBlock DockPanel.Dock="Right" TextAlignment="Right">author</TextBlock>
     </StackPanel>
   </Grid>
 </Window>
